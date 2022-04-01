@@ -30,7 +30,8 @@ h1 {
   font-weight: bold;
   position: absolute;
   top: 20px;
-  opacity: 0.15;
+  opacity: 0.5;
+  color: darkviolet;
 }
 .countdown {
   display: none;
