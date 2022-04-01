@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.779), rgba(0, 0, 0, 0.759)),
+    url(images/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  color: white;
+  font-family: Lato, serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  text-align: center;
+}
+h1 {
+  font-size: 60px;
+  margin-bottom: 40px;
+}
+.year {
+  font-size: 200px;
+  font-weight: bold;
+  position: absolute;
+  top: 20px;
+  opacity: 0.15;
+}
+.countdown {
+  display: none;
+
+  /* display: flex; */
+}
+.time {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 15px;
+}
+.time h2 {
+  margin: 0 0 5px;
+  font-size: 44px;
+}
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 45px;
+  }
+  .time {
+    margin: 10px;
+  }
+  .time h2 {
+    font-size: 32px;
+  }
+  .year {
+    font-size: 150px;
+  }
+}
